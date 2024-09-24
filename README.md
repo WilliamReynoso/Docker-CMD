@@ -19,6 +19,7 @@ Ejecutamos docker-compose up --build
 una vez con los contenedores corriendo, entramos al servidor con ``docker exec -it server bash`` y lo iniciamos
 
 ![imagen](https://github.com/user-attachments/assets/4cac0bc9-b2de-41fb-b8a9-79060e069696)
+
 luego entramos al cliente1 con ``docker exec -it client1 bash`` ejecutamos el script y nos conectara con el servidor donde podremos enviar comandos
 ![imagen](https://github.com/user-attachments/assets/cd73cb88-58f4-46af-894f-e152471ec8b6)
 Haciendo pruebas podemos ver que el servidor atiende a varios clientes de manera separada

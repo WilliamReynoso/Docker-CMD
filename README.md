@@ -13,7 +13,9 @@ Es importante recordar que enviar un comando no debera replicarse a los demas cl
 -----------------------------------
 Ejecutamos docker-compose up --build
 ![imagen](https://github.com/user-attachments/assets/3680da4b-cb0c-4aea-b142-3f1844c2fc08)
+
 ![imagen](https://github.com/user-attachments/assets/5675ff9d-9a33-4754-8176-ba6c45755093)
+
 una vez con los contenedores corriendo, entramos al servidor con ``docker exec -it server bash`` y lo iniciamos
 ![imagen](https://github.com/user-attachments/assets/4cac0bc9-b2de-41fb-b8a9-79060e069696)
 luego entramos al cliente1 con ``docker exec -it client1 bash`` ejecutamos el script y nos conectara con el servidor donde podremos enviar comandos

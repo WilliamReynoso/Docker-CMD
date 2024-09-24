@@ -1,0 +1,25 @@
+services:
+  server:
+    build:
+      context: ./server
+    container_name: server
+    ports:
+      - "7000:7000"
+    stdin_open: true
+    tty: true
+  client1:
+    build:
+      context: ./client
+    container_name: client1
+    depends_on:
+      - server
+    stdin_open: true
+    tty: true
+  client2:
+    build:
+      context: ./client
+    container_name: client2
+    depends_on:
+      - server
+    stdin_open: true
+    tty: true

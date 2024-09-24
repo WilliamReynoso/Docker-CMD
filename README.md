@@ -22,6 +22,7 @@ una vez con los contenedores corriendo, entramos al servidor con ``docker exec -
 
 luego entramos al cliente1 con ``docker exec -it client1 bash`` ejecutamos el script y nos conectara con el servidor donde podremos enviar comandos
 ![imagen](https://github.com/user-attachments/assets/cd73cb88-58f4-46af-894f-e152471ec8b6)
+
 Haciendo pruebas podemos ver que el servidor atiende a varios clientes de manera separada
 ![imagen](https://github.com/user-attachments/assets/413092a0-4c35-4a31-a648-b21a628c1b2c)
 

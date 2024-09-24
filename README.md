@@ -7,7 +7,6 @@ Dentro de la carpeta files tendremos:
 - archivo.txt
 - movies.json
 ...
-
 cliente>get archivo.txt  // el servidor debera enviar el achivo al cliente, el cliente debera crear un folder "download" y guardar el archivo ahi mismo.
 
 Es importante recordar que enviar un comando no debera replicarse a los demas clientes conectados, solo a quien lo envia.
